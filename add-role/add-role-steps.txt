@@ -1,0 +1,3 @@
+oc create secret generic addrole --from-file=addRole.properties
+oc apply -f discord-role-assigner.kamelet.yaml
+oc apply -f h2d.yaml
